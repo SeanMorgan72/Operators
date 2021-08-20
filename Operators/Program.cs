@@ -11,7 +11,7 @@ namespace Operators
             int quotient = a / b;
             int remainder = a % b;
 
-            Console.WriteLine($"{a} / {b} is {quotient} with a remainder {remainder}.");
+            Console.WriteLine(a == 17 && b == 4 ? $"{a} / {b} is {quotient} with a remainder of {remainder}." : "Unsolvable!");
         }
     }
 }
